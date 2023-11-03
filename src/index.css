@@ -1,63 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background-color: var(--dark);
 }
 
 /* header */
-.header {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 15px;
-  max-width: 1200px;
-}
-
-.logo-box {
-  width: 90px;
+.header-wrap,
+.footer-wrap {
+  background-color: var(--dark);
 }
 
 /* nav */
-.nav-bars {
-  display: flex;
-}
-
-.nav-bars li {
-  margin-left: 40px;
-}
-
 .nav-bars a.active,
 .nav-bars a:hover {
   transition: all 0.4s ease-out;
   color: var(--gold);
 }
 
-/* footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 20px 0;
-  width: 100%;
-}
-
-.footer-box {
-  text-align: center;
-}
-
-.footer-box .sns-lists {
+/* main */
+.main-wrap {
+  padding: 65px 20px 105px 20px;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-}
-
-.footer-box .sns-lists li {
-  width: 25px;
-}
-
-.footer-box .sns-lists li:last-child {
-  margin-left: 15px;
-}
-
-.footer-box p {
-  margin-top: 8px;
-  font-size: 14px;
 }
