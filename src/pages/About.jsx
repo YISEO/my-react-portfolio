@@ -1,6 +1,10 @@
+import MainImage from '../assets/main-bg.png';
+
 function About() {
     return (
-        <div>About page</div>
+        <div>
+            <img src={MainImage} alt="main image" />
+        </div>
     )
 }
 

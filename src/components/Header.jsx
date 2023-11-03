@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 function Header() {
     return (
         <header className="header">
-            <h1>
+            <h1 className="logo-box">
                 <a href="/">
                     <img src={logo} alt="My personal logo, which is written 'SEO'" />
                 </a>
