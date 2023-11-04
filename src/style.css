@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
 
 /* common style */
-:root {
-    --primary: #fffcf2;
-    --dark: #252422;
-    --light-dark: #a7a7a7;
-    --gold: #edc967;
-}
-
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
