@@ -10,7 +10,7 @@ function Resume() {
             </p>
             <h2 className="mt-5 max-w-">
                 <Link to={resumeFile} download="Resume(Joy)-PDF" target="_blank" 
-                    className="block py-3 px-2 border rounded-lg text-center hover:bg-white hover:text-dark duration-500"
+                    className="block py-3 px-2 border border-gold rounded-lg text-center text-gold hover:bg-gold hover:text-dark duration-500"
                 >
                     Download file
                 </Link>
