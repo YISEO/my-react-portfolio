@@ -8,10 +8,10 @@ function Project({ imgUrl, alt, title, description, viewCode, viewApp, marginLef
             <h3 className="mt-3 lg:text-lg font-bold">{title}</h3>
             <p className="mt-1 text-sm">{description}</p>
             <div className="mt-4">
-                <Link to={viewCode} className="py-2 px-3 border rounded-lg text-center hover:bg-white hover:text-dark duration-500 text-xs">
+                <Link to={viewCode} target="_blank" className="py-2 px-3 border rounded-lg text-center hover:bg-white hover:text-dark duration-500 text-xs">
                     View the code
                 </Link>
-                <Link to={viewApp} className="py-2 px-3 border rounded-lg text-center hover:bg-white hover:text-dark duration-500 text-xs ml-2">
+                <Link to={viewApp} target="_blank" className="py-2 px-3 border rounded-lg text-center hover:bg-white hover:text-dark duration-500 text-xs ml-2">
                     View the app
                 </Link>
             </div>
